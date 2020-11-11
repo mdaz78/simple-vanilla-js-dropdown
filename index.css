@@ -1,0 +1,33 @@
+.hide {
+  display: none;
+}
+
+div[data-z='container'] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+input[data-z-search='text-to-search'] {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+div[data-z-itemsList='items'] {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 111%;
+}
+
+div[data-z-itemsList='items'] > label {
+  padding: 8px 10px;
+  border: 1px solid #9d9d9d;
+  cursor: pointer;
+}
