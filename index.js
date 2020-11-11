@@ -1,3 +1,5 @@
+console.log('z-search-dropdown-loaded');
+
 function showDropdownFor(element) {
   _elementReady(element).then((node) => {
     const searchBox = node.querySelector('[data-z-search]');
